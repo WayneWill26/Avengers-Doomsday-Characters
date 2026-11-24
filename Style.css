@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(0, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+}
+
+html {
+   background-image: url("./Img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: green;
+}
+
+img {
+    height: 380px;
+    width: 300px;
+    border: 10px solid rgb(21, 195, 30);
+    border-radius: 30px;
+}
+
+img:hover {
+    border-color: green;
+}
+
+img:active {
+    border-color: rgb(73, 141, 73);
+}
+
+li {
+    display: inline-block;
+}
